@@ -11,10 +11,6 @@ The Heal Charm, a classic, gives you Regeneration for three seconds, allowing yo
 Find wild gooseberries in dense Forests and vast Plains! Their high concentration of Vitamin C gives them extra healing properties.
 
 
-```
-./gradlew idea
-```
-
 ## License
 
 This template is available under the MIT license. Feel free to learn from it and incorporate it in your own projects.
