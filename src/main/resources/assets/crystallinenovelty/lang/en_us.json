@@ -1,0 +1,20 @@
+{
+	"block.crystallinenovelty.golden_topaz_crystal": "Golden Topaz Crystal",
+	"block.crystallinenovelty.golden_topaz_ore": "Golden Topaz Ore",
+	"block.crystallinenovelty.carnelian_crystal": "Carnelian Crystal",
+	"block.crystallinenovelty.carnelian_ore": "Carnelian Ore",
+	"item.crystallinenovelty.purity_charm": "Purity Charm",
+	"item.crystallinenovelty.purity_charm.use": "You feel freed of all effects laid on you...",
+	"item.crystallinenovelty.purity_charm.desc": "This charm radiates a cool, warding aura.",
+	"item.crystallinenovelty.heal_charm.use": "You feel refreshed and revitalized...",
+	"item.crystallinenovelty.heal_charm.desc": "This charm radiates a warm, rejuvenating aura.",
+	"item.crystallinenovelty.heal_charm": "Heal Charm",
+	"itemGroup.crystallinenovelty.general": "Crystalline Novelty",
+	"item.crystallinenovelty.gooseberries": "Gooseberries",
+	"item.crystallinenovelty.gooseberries.use": "The berries have helped heal critical wounds...",
+	"item.crystallinenovelty.gooseberries.use.fail": "The berries could be much more useful when wounded...",
+	"item.crystallinenovelty.gooseberries.desc": "This berry seems very refreshing in a pinch.",
+	"item.crystallinenovelty.crystal_dagger": "Crystal Dagger",
+	"item.crystallinenovelty.crystal_dagger.use": "You begin to feel stronger due to the Crystal Dagger...",
+	"item.crystallinenovelty.crystal_dagger.desc": "This dagger makes your veins flow with power."
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "crystallinenovelty",
+  "version": "${version}",
+
+  "name": "Crystalline Novelty",
+  "description": "Experience the magic of crystals!",
+  "authors": [
+    "PoeticRainbow"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.poeticrainbow.crystallinenovelty.CrystallineNovelty"
+    ]
+  },
+  "mixins": [
+    "crystallinenovelty.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "@#@",
+    "$ $",
+    " $ "
+  ],
+  "key": {
+    "#": {
+      "item": "crystallinenovelty:carnelian_crystal"
+    },
+	"@": {
+	  "item": "minecraft:string"
+	},
+	"$": {
+	  "item": "minecraft:stick"
+	}
+  },
+  "result": {
+    "item": "crystallinenovelty:heal_charm"
+  }
+}

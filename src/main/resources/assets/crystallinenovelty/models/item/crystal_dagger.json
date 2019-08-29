@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+	"textures": {
+		"layer0": "crystallinenovelty:item/crystal_dagger"
+	}
+}

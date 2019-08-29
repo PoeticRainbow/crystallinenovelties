@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "@",
+    "#",
+    "$"
+  ],
+  "key": {
+    "#": {
+      "item": "crystallinenovelty:carnelian_crystal"
+    },
+	"@": {
+	  "item": "crystallinenovelty:golden_topaz_crystal"
+	},
+	"$": {
+	  "item": "minecraft:stick"
+	}
+  },
+  "result": {
+    "item": "crystallinenovelty:crystal_dagger"
+  }
+}
