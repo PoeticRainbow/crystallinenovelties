@@ -16,5 +16,7 @@
 	"item.crystallinenovelty.gooseberries.desc": "This berry seems very refreshing in a pinch.",
 	"item.crystallinenovelty.crystal_dagger": "Crystal Dagger",
 	"item.crystallinenovelty.crystal_dagger.use": "You begin to feel stronger due to the Crystal Dagger...",
-	"item.crystallinenovelty.crystal_dagger.desc": "This dagger makes your veins flow with power."
+	"item.crystallinenovelty.crystal_dagger.desc": "This dagger makes your veins flow with power.",
+	"block.crystallinenovelty.golden_topaz_crystal_pedestal": "Golden Topaz Crystal Pedestal",
+	"block.crystallinenovelty.carnelian_crystal_pedestal": "Carnelian Crystal Pedestal"
 }

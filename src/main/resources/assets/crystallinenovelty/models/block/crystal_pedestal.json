@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "crystallinenovelty:block/quartz_block_bottom"
+		"0": "block/quartz_block_bottom"
 	},
 	"elements": [
 		{

@@ -14,12 +14,9 @@ import net.minecraft.world.IWorld;
 import net.minecraft.world.ViewableWorld;
 
 public class CrystalBlock extends Block {
-    protected static final VoxelShape SHAPE = Block.createCuboidShape(3.0D, 0.0D, 3.0D, 13.0D, 12.0D, 13.0D);
-    private final Settings settings;
-
+    private static final VoxelShape SHAPE = Block.createCuboidShape(3.0D, 0.0D, 3.0D, 13.0D, 12.0D, 13.0D);
     public CrystalBlock(Block.Settings settings) {
         super(settings);
-        this.settings = settings;
     }
 
     @Override
