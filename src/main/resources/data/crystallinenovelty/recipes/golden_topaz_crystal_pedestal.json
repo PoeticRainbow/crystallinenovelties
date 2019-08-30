@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "@#@",
+    " & ",
+    "$$$"
+  ],
+  "key": {
+    "#": {
+      "item": "crystallinenovelty:golden_topaz_crystal"
+    },
+	"@": {
+	  "item": "minecraft:quartz_slab"
+	},
+	"$": {
+	  "item": "minecraft:quartz_block"
+	},
+	"&": {
+	  "item": "minecraft:quartz_pillar"
+	}
+  },
+  "result": {
+    "item": "crystallinenovelty:golden_topaz_crystal_pedestal"
+  }
+}
