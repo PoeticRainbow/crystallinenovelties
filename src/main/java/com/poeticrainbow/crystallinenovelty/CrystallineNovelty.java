@@ -1,6 +1,7 @@
 package com.poeticrainbow.crystallinenovelty;
 
 import com.poeticrainbow.crystallinenovelty.block.ModBlocks;
+import com.poeticrainbow.crystallinenovelty.entity.ModBlockEntities;
 import com.poeticrainbow.crystallinenovelty.item.ModItems;
 import com.poeticrainbow.crystallinenovelty.world.OreGen;
 import net.fabricmc.api.ModInitializer;
@@ -32,6 +33,7 @@ public class CrystallineNovelty implements ModInitializer {
     public void onInitialize() {
         ModBlocks.init();
         ModItems.init();
+        ModBlockEntities.init();
         //Loop over existing biomes
         Registry.BIOME.forEach(OreGen::handleBiome);
         //Listen for other biomes being registered

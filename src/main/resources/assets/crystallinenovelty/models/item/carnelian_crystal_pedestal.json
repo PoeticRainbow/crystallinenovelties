@@ -1,3 +1,6 @@
 {
-	"parent": "crystallinenovelty:block/carnelian_crystal_pedestal"
+    "parent": "item/handheld",
+	"textures": {
+		"layer0": "crystallinenovelty:item/carnelian_crystal_pedestal"
+	}
 }

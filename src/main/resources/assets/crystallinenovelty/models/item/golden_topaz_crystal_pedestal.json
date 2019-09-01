@@ -1,3 +1,6 @@
 {
-	"parent": "crystallinenovelty:block/golden_topaz_crystal_pedestal"
+    "parent": "item/handheld",
+	"textures": {
+		"layer0": "crystallinenovelty:item/golden_topaz_crystal_pedestal"
+	}
 }

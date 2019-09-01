@@ -23,8 +23,8 @@ public class ModBlocks {
         carnelian_crystal = register("carnelian_crystal", new CrystalBlock(Block.Settings.copy(Blocks.GLOWSTONE)));
         golden_topaz_crystal = register("golden_topaz_crystal", new CrystalBlock(Block.Settings.copy(Blocks.GLOWSTONE)));
         gooseberry_bush = register("gooseberry_bush", new CustomBushBlock(Block.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
-        carnelian_crystal_pedestal = register("carnelian_crystal_pedestal", new CrystalPedestal(Block.Settings.copy(Blocks.STONE)));
-        golden_topaz_crystal_pedestal = register("golden_topaz_crystal_pedestal", new CrystalPedestal(Block.Settings.copy(Blocks.STONE)));
+        carnelian_crystal_pedestal = register("carnelian_crystal_pedestal", new CarnelianCrystalPedestal(Block.Settings.copy(Blocks.STONE)));
+        golden_topaz_crystal_pedestal = register("golden_topaz_crystal_pedestal", new GoldenTopazCrystalPedestal(Block.Settings.copy(Blocks.STONE)));
         Registry.register(Registry.ITEM, new Identifier(CrystallineNovelty.MODID, "gooseberries"),
                 new GooseberryItem(gooseberry_bush, (new Item.Settings()).group(ItemGroup.FOOD).food(FoodComponents.SWEET_BERRIES)));
     }
