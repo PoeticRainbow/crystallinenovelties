@@ -34,11 +34,11 @@ public class CrystallineNovelty implements ModInitializer {
         ModBlocks.init();
         ModItems.init();
         ModBlockEntities.init();
-        //Loop over existing biomes
+
         Registry.BIOME.forEach(OreGen::handleBiome);
-        //Listen for other biomes being registered
+
         RegistryEntryAddedCallback.event(Registry.BIOME).register((i, identifier, biome) -> OreGen.handleBiome(biome));
-        //MAKE BERRIES SPAWN!!!!
+
         Feature<DefaultFeatureConfig> GOOSEBERRY_BUSH = Registry.register(Registry.FEATURE,
                 new Identifier(CrystallineNovelty.MODID, "gooseberry_bush"),
                 new WildCropFeature(DefaultFeatureConfig::deserialize, (BlockState)ModBlocks.gooseberry_bush.getDefaultState().with(SweetBerryBushBlock.AGE, 3)));
